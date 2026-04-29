@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Emmanuel Yeboah — Content, Data & AI Portfolio. Multimedia production meets quantitative modeling and AI data systems." />
+  <title>Emmanuel Yeboah | Content, Data & AI</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION
+  ============================================================ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <!-- Full name as logo — more professional than initials -->
+      <a href="#hero" class="nav-logo">Emmanuel Yeboah</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#media">Media</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       HERO SECTION
+  ============================================================ -->
+  <section class="hero" id="hero">
+    <div class="hero-inner">
+
+      <!-- Availability status badge -->
+      <div class="hero-status">
+        <span class="hero-status-dot"></span>
+        Available for select roles
+      </div>
+
+      <h1 class="hero-name">Emmanuel Yeboah</h1>
+      <p class="hero-title">Content, Data &amp; AI</p>
+      <p class="hero-tagline">
+        Multimedia producer and quantitative thinker. I structure content and
+        data for digital platforms, AI systems, and high-stakes analytical work.
+      </p>
+
+      <div class="hero-ctas">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+
+      <!-- Stats strip — three real impact numbers -->
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <span class="stat-num">3</span>
+          <span class="stat-label">Quantitative Models Built</span>
+        </div>
+        <div class="hero-stat-divider" aria-hidden="true"></div>
+        <div class="hero-stat">
+          <span class="stat-num">15+</span>
+          <span class="stat-label">Healthcare REITs Analyzed</span>
+        </div>
+        <div class="hero-stat-divider" aria-hidden="true"></div>
+        <div class="hero-stat">
+          <span class="stat-num">$25M</span>
+          <span class="stat-label">Acquisition Modeled</span>
+        </div>
+      </div>
+
+    </div>
+    <!-- Decorative grid overlay -->
+    <div class="hero-grid" aria-hidden="true"></div>
+  </section>
+
+  <!-- ============================================================
+       ABOUT SECTION
+  ============================================================ -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">About</span>
+        <h2 class="section-title">The intersection of content, data, and structure</h2>
+      </div>
+
+      <div class="about-grid">
+        <!-- Left column: professional summary -->
+        <div class="about-text">
+          <p>
+            I operate at the crossroads of multimedia storytelling and data
+            systems. My foundation is in video production and digital media —
+            where I learned to shape narratives, optimize for audience
+            engagement, and deliver polished, purposeful content at scale.
+          </p>
+          <p>
+            I have since built a rigorous technical layer: Python, R, and
+            quantitative modeling. I build structured datasets, financial
+            simulations, and analytical frameworks with the same discipline I
+            apply to content — deliberate, well-labeled, and built to hold up
+            under scrutiny.
+          </p>
+          <p>
+            This combination is rare and increasingly valuable. It positions me
+            directly for work in AI data pipelines, content structuring, and
+            data-driven media strategy — fields where the quality of output
+            depends entirely on how well it is organized, labeled, and designed
+            for downstream use.
+          </p>
+        </div>
+
+        <!-- Right column: numbered highlight cards -->
+        <div class="about-cards">
+          <div class="about-card">
+            <span class="about-card-num">01</span>
+            <h3>Content &amp; Media</h3>
+            <p>Video production, audience-first storytelling, and digital content strategy built around measurable engagement outcomes.</p>
+          </div>
+          <div class="about-card">
+            <span class="about-card-num">02</span>
+            <h3>Quantitative Modeling</h3>
+            <p>Python and R-based financial models — Black-Scholes, Monte Carlo, DCF — structured for auditability and reproducibility.</p>
+          </div>
+          <div class="about-card">
+            <span class="about-card-num">03</span>
+            <h3>AI &amp; Data Systems</h3>
+            <p>Data annotation, content structuring for AI pipelines, and quality control methodology for training data at scale.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PROJECTS SECTION
+  ============================================================ -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Projects</span>
+        <h2 class="section-title">Structured, documented, built to scale</h2>
+        <p class="section-sub">
+          Each project reflects the same standard: clean structure, labeled
+          logic, and outputs that can be understood, audited, and extended.
+        </p>
+      </div>
+
+      <div class="projects-list">
+
+        <!-- ---- PROJECT 01: Options Pricing Library ---- -->
+        <article class="project-card" id="project-options">
+          <div class="project-card-left">
+            <span class="project-num">01</span>
+          </div>
+          <div class="project-card-right">
+            <div class="project-card-header">
+              <div class="project-header-top">
+                <span class="project-tag">Python &middot; Quantitative Finance</span>
+                <a href="https://github.com/MannyYebz/options-pricing-engine" target="_blank" rel="noopener" class="project-link">
+                  View on GitHub
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2.5 9.5L9.5 2.5M9.5 2.5H4.5M9.5 2.5V7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </a>
+              </div>
+              <h3 class="project-title">Options Pricing Library</h3>
+              <p class="project-overview">
+                A modular Python library implementing three independent pricing
+                models — each documented, independently validated, and structured
+                for reusability and transparency.
+              </p>
+            </div>
+
+            <div class="project-details">
+              <div class="project-block">
+                <h4>What I Built</h4>
+                <ul>
+                  <li>
+                    <strong>Black-Scholes Model</strong> — Closed-form analytical
+                    pricing for European options with a full Greeks suite (Delta,
+                    Gamma, Theta, Vega, Rho) quantifying sensitivity to every
+                    market variable.
+                  </li>
+                  <li>
+                    <strong>Monte Carlo Simulation</strong> — Stochastic price
+                    path generation via Geometric Brownian Motion across thousands
+                    of scenarios, producing convergent estimates with statistical
+                    confidence intervals.
+                  </li>
+                  <li>
+                    <strong>Binomial Tree Model</strong> — Discrete-time lattice
+                    pricing supporting American-style options with early exercise
+                    logic, configurable step count, and backward induction
+                    valuation.
+                  </li>
+                </ul>
+              </div>
+              <div class="project-block project-block--insight">
+                <h4>Why It Matters for AI &amp; Data</h4>
+                <p>
+                  This project demonstrates structured, well-documented code in a
+                  domain where correctness is non-negotiable. Each module is
+                  independently validated and designed so outputs are
+                  interpretable — the same standard required in high-quality
+                  training datasets and AI evaluation pipelines. Building models
+                  others can read and trust is a data skill, not just a finance one.
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- ---- PROJECT 02: Credit Risk & LGD Model ---- -->
+        <article class="project-card" id="project-credit">
+          <div class="project-card-left">
+            <span class="project-num">02</span>
+          </div>
+          <div class="project-card-right">
+            <div class="project-card-header">
+              <div class="project-header-top">
+                <span class="project-tag">R &middot; Credit Risk &middot; Dataset Modeling</span>
+                <a href="https://github.com/MannyYebz/BLMC" target="_blank" rel="noopener" class="project-link">
+                  View on GitHub
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2.5 9.5L9.5 2.5M9.5 2.5H4.5M9.5 2.5V7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </a>
+              </div>
+              <h3 class="project-title">Credit Risk &amp; LGD Model</h3>
+              <p class="project-overview">
+                A probability-weighted credit analysis framework in R, applied
+                across 15+ healthcare REITs to model Loss Given Default and
+                recovery under multiple distress scenarios.
+              </p>
+            </div>
+
+            <div class="project-details">
+              <div class="project-block">
+                <h4>What I Did</h4>
+                <ul>
+                  <li>
+                    Assembled and structured a custom dataset covering 15+
+                    healthcare REIT issuers — cleaning, normalizing, and labeling
+                    financial variables for consistency across the full sample.
+                  </li>
+                  <li>
+                    Built probability-weighted recovery models assigning scenario
+                    weights to distress outcomes (restructuring, liquidation, par
+                    recovery) based on issuer-specific risk factors.
+                  </li>
+                  <li>
+                    Applied collateral coverage analysis and recovery rate
+                    benchmarking to stress-test LGD estimates against historical
+                    comps and sector-level default data.
+                  </li>
+                </ul>
+              </div>
+              <div class="project-block project-block--insight">
+                <h4>Why It Matters for AI &amp; Data</h4>
+                <p>
+                  The core challenge here was data, not computation. Deciding how
+                  to label, categorize, and weight each issuer's distress scenario
+                  required deliberate annotation logic — the same skill set that
+                  drives effective data labeling and quality control in AI
+                  training pipelines. This project demonstrates how to impose
+                  structure on messy, real-world data and produce outputs that are
+                  defensible and reproducible.
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- ---- PROJECT 03: Healthcare Real Estate DCF & Monte Carlo ---- -->
+        <article class="project-card" id="project-dcf">
+          <div class="project-card-left">
+            <span class="project-num">03</span>
+          </div>
+          <div class="project-card-right">
+            <div class="project-card-header">
+              <div class="project-header-top">
+                <span class="project-tag">Python / R &middot; DCF &middot; Monte Carlo</span>
+                <a href="https://github.com/MannyYebz" target="_blank" rel="noopener" class="project-link">
+                  View on GitHub
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2.5 9.5L9.5 2.5M9.5 2.5H4.5M9.5 2.5V7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </a>
+              </div>
+              <h3 class="project-title">Healthcare Real Estate DCF &amp; Monte Carlo Model</h3>
+              <p class="project-overview">
+                A full acquisition underwriting model for a $25M healthcare real
+                estate target — integrating DCF analysis, Monte Carlo simulation,
+                and scenario-based evaluation into a single auditable framework.
+              </p>
+            </div>
+
+            <div class="project-details">
+              <div class="project-block">
+                <h4>What I Built</h4>
+                <ul>
+                  <li>
+                    <strong>DCF Engine</strong> — 10-year free cash flow
+                    projections using healthcare-specific operating assumptions
+                    (occupancy, rental escalations, capex cycles), discounted at
+                    a risk-adjusted WACC to produce baseline intrinsic value.
+                  </li>
+                  <li>
+                    <strong>Monte Carlo Layer</strong> — Stochastic variation
+                    applied to key inputs (cap rates, NOI growth, vacancy) across
+                    10,000+ simulated acquisitions, producing probability
+                    distributions over IRR and equity multiple outcomes.
+                  </li>
+                  <li>
+                    <strong>Scenario Framework</strong> — Bull / base / bear
+                    scenario matrix with labeled assumption sets, enabling direct
+                    comparison of outcome distributions and downside risk
+                    quantification.
+                  </li>
+                </ul>
+              </div>
+              <div class="project-block project-block--insight">
+                <h4>Why It Matters for AI &amp; Data</h4>
+                <p>
+                  This model is structured end-to-end for auditability. Every
+                  assumption is labeled, every scenario is named, and the output
+                  distributions are designed to communicate uncertainty, not
+                  obscure it. In AI data contexts, this is exactly the mindset
+                  needed to build evaluation sets, annotate edge cases, and
+                  produce documentation that makes model behavior interpretable
+                  to both technical and non-technical stakeholders.
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div><!-- /projects-list -->
+    </div>
+  </section>
+
+  <!-- ============================================================
+       MEDIA PORTFOLIO SECTION
+  ============================================================ -->
+  <section class="section media" id="media">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Media Portfolio</span>
+        <h2 class="section-title">Content that informs, engages, and converts</h2>
+        <p class="section-sub">
+          Before models and spreadsheets, there was a camera. My background
+          in multimedia production shapes every output I produce — audience
+          first, structure always.
+        </p>
+      </div>
+
+      <div class="media-grid">
+
+        <div class="media-card">
+          <div class="media-thumb" aria-label="Video editing work">
+            <div class="media-thumb-inner">
+              <svg class="media-icon" viewBox="0 0 32 32" fill="none" aria-hidden="true"><polygon points="12,8 26,16 12,24" fill="rgba(255,255,255,0.2)"/></svg>
+              <p class="media-thumb-label">Video Editing</p>
+            </div>
+          </div>
+          <div class="media-card-body">
+            <h3>Narrative Video Editing</h3>
+            <p>
+              Long-form and short-form editing with emphasis on pacing,
+              narrative arc, and audience retention. Multi-track timelines,
+              color grading, and end-to-end post-production.
+            </p>
+            <ul class="media-tags">
+              <li>Premiere Pro</li>
+              <li>DaVinci Resolve</li>
+              <li>Long-form</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="media-card">
+          <div class="media-thumb media-thumb--b" aria-label="Storytelling work">
+            <div class="media-thumb-inner">
+              <svg class="media-icon" viewBox="0 0 32 32" fill="none" aria-hidden="true"><rect x="6" y="8" width="20" height="3" rx="1.5" fill="rgba(255,255,255,0.2)"/><rect x="6" y="14.5" width="14" height="3" rx="1.5" fill="rgba(255,255,255,0.2)"/><rect x="6" y="21" width="17" height="3" rx="1.5" fill="rgba(255,255,255,0.2)"/></svg>
+              <p class="media-thumb-label">Storytelling</p>
+            </div>
+          </div>
+          <div class="media-card-body">
+            <h3>Digital Storytelling</h3>
+            <p>
+              Script development and visual storytelling for digital-first
+              platforms. Translating complex ideas — financial, technical, or
+              cultural — into content that lands with general audiences.
+            </p>
+            <ul class="media-tags">
+              <li>Scripting</li>
+              <li>Storyboarding</li>
+              <li>Digital-first</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="media-card">
+          <div class="media-thumb media-thumb--c" aria-label="Audience engagement work">
+            <div class="media-thumb-inner">
+              <svg class="media-icon" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M4 24 L10 16 L16 20 L22 10 L28 14" stroke="rgba(255,255,255,0.2)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <p class="media-thumb-label">Audience Engagement</p>
+            </div>
+          </div>
+          <div class="media-card-body">
+            <h3>Audience Engagement Strategy</h3>
+            <p>
+              Data-informed content strategy built around retention,
+              watch-time, and platform behavior. Metrics to guide creative
+              decisions, not just report them after the fact.
+            </p>
+            <ul class="media-tags">
+              <li>Analytics</li>
+              <li>A/B Strategy</li>
+              <li>Platform Optimization</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="media-card">
+          <div class="media-thumb media-thumb--d" aria-label="Content optimization work">
+            <div class="media-thumb-inner">
+              <svg class="media-icon" viewBox="0 0 32 32" fill="none" aria-hidden="true"><circle cx="16" cy="16" r="10" stroke="rgba(255,255,255,0.2)" stroke-width="2.5"/><path d="M16 10 V16 L20 20" stroke="rgba(255,255,255,0.2)" stroke-width="2.5" stroke-linecap="round"/></svg>
+              <p class="media-thumb-label">Content Optimization</p>
+            </div>
+          </div>
+          <div class="media-card-body">
+            <h3>Content Optimization &amp; Distribution</h3>
+            <p>
+              Structuring and tagging content for discoverability. Metadata
+              strategy, SEO-conscious titling, and multi-platform distribution
+              planning for reach without sacrificing quality.
+            </p>
+            <ul class="media-tags">
+              <li>Metadata</li>
+              <li>SEO</li>
+              <li>Multi-platform</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SKILLS SECTION
+       Note: skill chips replace progress bars — self-assigned
+       percentages look amateur; grouped chips communicate breadth.
+  ============================================================ -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Skills</span>
+        <h2 class="section-title">Technical range, purposefully applied</h2>
+      </div>
+
+      <div class="skills-grid">
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">Technical</h3>
+          <div class="skill-chips">
+            <span class="chip">Python</span>
+            <span class="chip">R</span>
+            <span class="chip">Monte Carlo Simulation</span>
+            <span class="chip">Financial Modeling</span>
+            <span class="chip">Black-Scholes</span>
+            <span class="chip">Binomial Trees</span>
+            <span class="chip">DCF Analysis</span>
+            <span class="chip">Statistical Modeling</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">AI &amp; Data</h3>
+          <div class="skill-chips">
+            <span class="chip">Data Annotation</span>
+            <span class="chip">Content Structuring</span>
+            <span class="chip">Data Labeling</span>
+            <span class="chip">Quality Control</span>
+            <span class="chip">Dataset Design</span>
+            <span class="chip">Evaluation Pipelines</span>
+            <span class="chip">Documentation</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">Media</h3>
+          <div class="skill-chips">
+            <span class="chip">Video Editing</span>
+            <span class="chip">Motion Graphics</span>
+            <span class="chip">Storytelling</span>
+            <span class="chip">Content Strategy</span>
+            <span class="chip">Premiere Pro</span>
+            <span class="chip">DaVinci Resolve</span>
+            <span class="chip">Script Writing</span>
+            <span class="chip">Audience Analytics</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT SECTION
+  ============================================================ -->
+  <section class="section contact" id="contact">
+    <div class="container contact-inner">
+      <div class="section-header">
+        <span class="section-label">Contact</span>
+        <h2 class="section-title">Open to the right opportunity</h2>
+      </div>
+      <p class="contact-sub">
+        Actively exploring roles in AI data, content strategy, and
+        quantitative analysis. I respond to every message.
+      </p>
+
+      <div class="contact-links">
+
+        <!-- Email -->
+        <a href="mailto:emmyeb14@gmail.com" class="contact-link">
+          <span class="contact-link-icon">
+            <!-- Email SVG -->
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+              <rect x="2" y="4" width="16" height="12" rx="2" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M2 7l8 5 8-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </span>
+          <div>
+            <p class="contact-link-label">Email</p>
+            <p class="contact-link-value">emmyeb14@gmail.com</p>
+          </div>
+        </a>
+
+        <!-- GitHub -->
+        <a href="https://github.com/MannyYebz" target="_blank" rel="noopener" class="contact-link">
+          <span class="contact-link-icon">
+            <!-- GitHub SVG -->
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M10 1.5C5.3 1.5 1.5 5.3 1.5 10c0 3.75 2.44 6.93 5.82 8.06.43.08.58-.18.58-.41v-1.44c-2.37.51-2.87-1.14-2.87-1.14-.39-.98-.95-1.24-.95-1.24-.77-.53.06-.52.06-.52.86.06 1.31.88 1.31.88.76 1.3 2 .93 2.49.71.08-.55.3-.93.54-1.14-1.89-.22-3.88-.95-3.88-4.21 0-.93.33-1.69.88-2.28-.09-.22-.38-1.08.08-2.25 0 0 .72-.23 2.35.88A8.17 8.17 0 0110 5.8c.73 0 1.46.1 2.14.29 1.63-1.11 2.35-.88 2.35-.88.46 1.17.17 2.03.08 2.25.55.59.88 1.35.88 2.28 0 3.27-1.99 3.99-3.89 4.2.31.27.58.79.58 1.6v2.37c0 .23.15.5.59.41C16.06 16.93 18.5 13.75 18.5 10c0-4.7-3.8-8.5-8.5-8.5z" fill="currentColor"/>
+            </svg>
+          </span>
+          <div>
+            <p class="contact-link-label">GitHub</p>
+            <p class="contact-link-value">github.com/MannyYebz</p>
+          </div>
+        </a>
+
+        <!-- LinkedIn (placeholder) -->
+        <a href="#" class="contact-link contact-link--placeholder" aria-label="LinkedIn — link coming soon">
+          <span class="contact-link-icon">
+            <!-- LinkedIn SVG -->
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+              <rect x="2" y="2" width="16" height="16" rx="3" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M6 8.5V14M6 5.5V6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M10 14v-3a2 2 0 014 0v3M10 8.5V14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          <div>
+            <p class="contact-link-label">LinkedIn</p>
+            <p class="contact-link-value">Link coming soon</p>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="footer-name">Emmanuel Yeboah</p>
+      <p class="footer-copy">&copy; 2026 &middot; Content, Data &amp; AI</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
